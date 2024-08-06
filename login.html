@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="loginData">
+        <input type="text" name="username" placeholder="שם משתמש" required /> <br/>
+        <input type="password" name="password" placeholder="ססמא" required/> <br />
+        <button type="submit">שמירה</button>
+    </form>
+
+    <script>
+        const form = document.querySelector('#loginData');
+
+        form.onsubmit = (e) => {
+            e.preventDefault();
+            // שליפה של נתוני טופס
+            const formData = new FormData(event.target);
+            // המרה של האובייקט שלח הטופס לאובייקט רגיל של js
+            const data = Object.fromEntries([...formData.entries()]);
+            // בשמן שמירת הנתונים חובה להמיר אותם למחרוזת, כי האחסון יודע להכיל מחרוזות בלבד
+            sessionStorage.setItem('currentUSer', JSON.stringify(data));
+            location.href = '/';
+        }
+    </script>
+</body>
+</html>

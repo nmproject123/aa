@@ -1,0 +1,13 @@
+{
+    "name": "חנות אלקטרוניקה",
+    "address": "איפהשהוא בעיר",
+    "categories": [{
+        "name": "מצלמות",
+        "code": 2,
+        "image": "camera.jpg"
+    }, {
+        "name": "תנורים",
+        "code": 1,
+        "image": "oven.jpg"
+    }]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "code": 1,
+        "name": "canon 620",
+        "category": 2,
+        "price": 1000
+    },
+    {
+        "code": 10,
+        "name": "samsong",
+        "category": 2,
+        "price": 980
+    },
+    {
+        "code": 2,
+        "name": "canon 710",
+        "category": 2,
+        "price": 1400
+    },
+    {
+        "code": 3,
+        "name": "canon 740",
+        "category": 2,
+        "price": 1200
+    },
+    {
+        "code": 4,
+        "name": "bosch",
+        "category": 1,
+        "price": 2000
+    },
+    {
+        "code": 5,
+        "name": "king",
+        "category": 1,
+        "price": 2500
+    },
+    {
+        "code": 6,
+        "name": "belers",
+        "category": 1,
+        "price": 2200
+    },
+    {
+        "code": 9,
+        "name": "electrolux",
+        "category": 1,
+        "price": 1900
+    }
+]

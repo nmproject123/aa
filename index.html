@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <style>
+        body {
+            direction: rtl;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #categories-container {
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(8, 150px);
+            grid-template-rows: repeat(8, 150px);
+        }
+
+        #categories-container a {
+            padding: 10px;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(173, 211, 211);
+        }
+
+        #categories-container a img {
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <h4></h4>
+    <h2>Hello <span></span></h2>
+    <h2>Choose Category you want to see</h2>
+    <div id="categories-container">
+
+    </div>
+    <!-- <iframe src="http://127.0.0.1:5500/category.html?categoryCode=1"></iframe> -->
+    <script src="src/app.js"></script>
+</body>
+</html>
